@@ -1,0 +1,69 @@
+/*--------------------------------------------------------------
+# Values
+--------------------------------------------------------------*/
+.values .card {
+  border: 0;
+  padding: 160px 20px 20px 20px;
+  position: relative;
+  width: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.values .card-body {
+  z-index: 10;
+  background: rgba(255, 255, 255, 0.9);
+  padding: 15px 30px;
+  box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
+  transition: 0.3s;
+  transition: ease-in-out 0.4s;
+  border-radius: 5px;
+}
+
+.values .card-title {
+  font-weight: 700;
+  text-align: center;
+  margin-bottom: 15px;
+}
+.cardRating {
+  margin-right: 15px;
+}
+.values .card-title a {
+  color: #222;
+}
+
+.values .card-text {
+  color: #222;
+}
+
+.values .read-more a {
+  color: #222;
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: 14px;
+  transition: 0.4s;
+}
+
+.values .read-more a:hover {
+  text-decoration: underline;
+}
+
+.values .card:hover .card-body {
+  background: #ff5821;
+}
+
+.values .card:hover .read-more a,
+.values .card:hover .card-title,
+.values .card:hover .card-title a,
+.values .card:hover .card-text,
+.value .card:hover .cardRating {
+  color: #fff;
+}
+
+.option {
+  background-color: "white";
+  border: "3px solid #ffbd59";
+  border-radius: "15px";
+  color: "black";
+}
