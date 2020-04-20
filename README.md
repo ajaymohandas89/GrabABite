@@ -2,7 +2,7 @@ PROJECT TITLE: GrabABite
 
 PROJECT DESCRIPTION:
 
-The project is about finding restaurants in your city and filtering out results as per options selected. Used React library to develop front end and MongoDb for backn end.
+The project is about finding restaurants in your city and filtering out results as per options selected. Used React library to develop front end and MongoDb for back end.
 
 PRE-REQUISITE:
 
