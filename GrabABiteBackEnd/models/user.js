@@ -29,13 +29,13 @@ const User = mongoose.model('User', new mongoose.Schema({
         required: true,
         minlength: 5,
         maxlength: 30,
-        trim: true
+        trim: true,
+        unique: true
     },
     password: {
         type: String,
         required: true,
         minlength: 5,
-        maxlength: 30,
         trim: true
     },
 }));
